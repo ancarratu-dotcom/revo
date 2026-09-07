@@ -41,10 +41,10 @@
 
 html body {
   background-color: #3A1420;
-  background-image: linear-gradient(rgba(58, 20, 32, 0.55), rgba(247, 241, 238, 0.9) 620px), url('../img/sfondo.webp');
+  background-image: linear-gradient(rgba(58, 20, 32, 0.6), rgba(247, 241, 238, 0.92) 620px), url('../img/arechi.jpg');
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
-  background-position: center top, center top;
+  background-position: center top, center 30%;
   background-attachment: fixed, fixed;
 }
 

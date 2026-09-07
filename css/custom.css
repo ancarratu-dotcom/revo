@@ -662,7 +662,7 @@ tr:first-child:hover:enabled{background-color:rgba(42, 16, 21, .1)}
 .footer__info--right{text-align:right;color:#D9B8C2;position:relative;padding-right:10px}
 .footer__info--line1{color:#D9B8C2}
 .footer__info--line2{color:#D9B8C2;padding-top:0px}
-.footer__logo{width:100px;height:30px;background-position:center;background-repeat:no-repeat;background-size:contain;-ms-flex-item-align:center;-ms-grid-row-align:center;background-image:none;align-self:center;margin:0 auto}
+.footer__logo{width:34px;height:34px;background-position:center;background-repeat:no-repeat;background-size:contain;-ms-flex-item-align:center;-ms-grid-row-align:center;background-image:url('../img/arechi-crest.png');align-self:center;margin:0 auto}
 .footer__text{color:#D9B8C2;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center;font-size:11px;font-family:'Open Sans',Arial,Verdana,sans-serif;font-weight:400}
 .footer__text p{font-size:10px;color:#D9B8C2}
 .footer__text a{color:rgba(247, 241, 238, .75) !important;margin-left:2px;font-weight:400;transition:color .2s}
