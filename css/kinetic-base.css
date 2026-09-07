@@ -90,7 +90,7 @@
 .button--blue {
   background-color: rgba(80, 140, 220, 0.1) !important;
   border-color: rgba(80, 140, 220, 0.6) !important;
-  color: #78aaf0 !important;
+  color:#1567A0 !important;
 }
 .button--blue:hover {
   background-color: rgba(80, 140, 220, 0.2) !important;
