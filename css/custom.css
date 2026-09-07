@@ -1987,19 +1987,19 @@ td.visible-xs,th.visible-xs{display:table-cell !important}
 .modal.mercato-libero-p-modal .heading__line--light{border-bottom:none !important;border-left:none !important;margin-top:0 !important;padding-left:0 !important;padding-bottom:0 !important;display:flex;align-items:center;font-size:12px !important;text-transform:uppercase;letter-spacing:.5px;color:rgba(42, 16, 21, .6) !important}
 .modal.mercato-libero-p-modal .heading__line--light small{color:#7A1F3D !important;font-weight:700;font-size:14px;margin-right:8px}
 .card--main .calendario__link--flex{display:flex !important;flex-wrap:wrap !important;justify-content:space-between !important;gap:8px !important;margin-bottom:24px !important}
-.card--main .calendario__link--flex a{flex:1 !important;min-width:0 !important;text-align:center !important;background:rgba(42, 16, 21, .05) !important;border:1px solid rgba(42, 16, 21, .12) !important;border-radius:6px !important;padding:8px 12px !important;color:#2A1015 !important;font-size:11px !important;text-transform:uppercase !important;letter-spacing:.8px !important;transition:.3s !important;text-decoration:none !important;font-weight:400}
-.card--main .calendario__link--flex a:hover{background:rgba(42, 16, 21, .1) !important;color:#2A1015 !important}
-.card--main .calendario__link--flex a.checked{background:rgba(201, 162, 39, .15) !important;border-color:rgba(201, 162, 39, .4) !important;color:#C9A227 !important;font-weight:600 !important}
+.card--main .calendario__link--flex a{flex:1 !important;min-width:0 !important;text-align:center !important;background:#FFFFFF !important;border:1px solid rgba(42, 16, 21, .15) !important;border-radius:6px !important;padding:8px 12px !important;color:#2A1015 !important;font-size:11px !important;text-transform:uppercase !important;letter-spacing:.8px !important;transition:.3s !important;text-decoration:none !important;font-weight:400;box-shadow:0 1px 3px rgba(42, 16, 21, .15) !important}
+.card--main .calendario__link--flex a:hover{background:#F7EAEE !important;color:#2A1015 !important}
+.card--main .calendario__link--flex a.checked{background:#7A1F3D !important;border-color:#7A1F3D !important;color:#F7F1EE !important;font-weight:600 !important}
 .card--main .calendario__first--line{border:none !important;margin-bottom:8px !important;padding:0 45px !important;display:flex !important;justify-content:center !important;align-items:center !important;text-align:center !important}
-.card--main #caleCompetizione{font-size:24px !important;font-weight:800 !important;color:#2A1015 !important;letter-spacing:1.5px !important;text-transform:uppercase !important;margin-left:0 !important;text-shadow:none !important}
+.card--main #caleCompetizione{font-size:24px !important;font-weight:800 !important;color:#2A1015 !important;letter-spacing:1.5px !important;text-transform:uppercase !important;margin-left:0 !important;text-shadow:none !important;background:#FFFFFF !important;padding:4px 16px !important;border-radius:6px !important;box-shadow:0 1px 3px rgba(42, 16, 21, .15) !important;display:inline-block !important}
 .card--main .calendario__line{border:none !important;margin-bottom:24px !important;padding:0 !important}
-.card--main #caleGirone{font-size:16px !important;color:#C9A227 !important;font-weight:600 !important;letter-spacing:1px !important;text-transform:uppercase !important}
+.card--main #caleGirone{font-size:16px !important;color:#7A1F3D !important;font-weight:700 !important;letter-spacing:1px !important;text-transform:uppercase !important}
 .card--main:has(.calendario__link--flex) .calendario{position:relative !important;z-index:1 !important;padding:12px 23px !important;margin-bottom:16px !important}
 .card--main:has(.calendario__link--flex) .calendario::before{content:"" !important;position:absolute !important;top:0 !important;bottom:0 !important;left:8px !important;right:8px !important;background-color:rgba(22, 30, 39, .85) !important;border:1px solid rgba(42, 16, 21, .08) !important;border-radius:8px !important;backdrop-filter:blur(6px) !important;z-index:-1 !important;pointer-events:none !important}
 .card--main:has(.calendario__link--flex) .calendario__team-name,.card--main:has(.calendario__link--flex) .calendario__header--big,.card--main:has(.calendario__link--flex) .calendario__position{color:#F7F1EE !important}
-.card--main:has(.calendario__link--flex) #caleCompetizione{color:#F7F1EE !important;text-shadow:0 0 15px rgba(201, 162, 39, .6),0 2px 4px rgba(42, 16, 21, .5) !important}
-.card--main:has(.calendario__link--flex) .calendario__link--flex a{background:rgba(247, 241, 238, .08) !important;border-color:rgba(247, 241, 238, .15) !important;color:#F7F1EE !important}
-.card--main:has(.calendario__link--flex) .calendario__link--flex a:hover{background:rgba(247, 241, 238, .15) !important;color:#F7F1EE !important}
+
+
+
 .card--main:has(.calendario__link--flex) .calendario__line{border-bottom-color:rgba(247, 241, 238, .15) !important}
 .card--main:has(.calendario__link--flex) .calendario__result{background-color:rgba(247, 241, 238, .18) !important;color:#F7F1EE !important}
 .card--main .slick-calendario{margin:0 -8px !important}
