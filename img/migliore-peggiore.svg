@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+  <defs>
+    <style>.cls-3{fill:#F0F9FA}</style>
+  </defs>
+  <!-- Freccia Originale SU (Slim) -->
+  <path class="cls-3" d="M 9.81 9.73 L 5.56 4.16 L 1.31 9.73 H 3.81 V 16.84 H 7.31 V 9.73 Z"/>
+  <!-- Freccia Originale GIU (Slim) -->
+  <path class="cls-3" d="M 17.19 11.27 V 4.16 H 13.69 V 11.27 H 11.19 L 15.44 16.84 L 19.69 11.27 Z"/>
+</svg>

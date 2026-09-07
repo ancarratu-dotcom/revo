@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 21 21"
+   version="1.1"
+   id="svg4499"
+   sodipodi:docname="storico-bianco.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata4503">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>storico</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4501"
+     showgrid="false"
+     inkscape:zoom="41.285714"
+     inkscape:cx="10.5"
+     inkscape:cy="10.5"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Livello_1-2" />
+  <defs
+     id="defs4487">
+    <style
+       id="style4485">.cls-1{fill:#F0F9FA}.cls-2{opacity:0}.cls-3{fill:#F0F9FA}</style>
+  </defs>
+  <title
+     id="title4489">storico</title>
+  <g
+     id="Livello_2"
+     data-name="Livello 2">
+    <g
+       id="Livello_1-2"
+       data-name="Livello 1">
+      <path
+         class="cls-1"
+         d="M18.14 11.74l-7.94 4.63-6.42-2.22h-.1a1 1 0 0 1 0-1.73l6.38 2.21a.68.68 0 0 0 .58-.06l.14-.06 7.55-4.41a.69.69 0 1 0-.7-1.19l-7.4 4.32L3.8 11h-.07a.94.94 0 0 1-.53-1 1 1 0 0 1 .4-.83l6.6 2.29h.27a.68.68 0 0 0 .23-.06l8.06-4.71a.69.69 0 0 0-.13-1.25L12 3.21a.69.69 0 0 0-.55 0L3.09 7.79a.69.69 0 0 0-.28.28 2.34 2.34 0 0 0-1 2 2.42 2.42 0 0 0 .59 1.61 2.44 2.44 0 0 0-.59 1.6 2.29 2.29 0 0 0 1.31 2.13l.13.05 6.76 2.34a.68.68 0 0 0 .67-.13l8.06-4.71a.69.69 0 0 0-.7-1.19z"
+         id="path4491"
+         style="fill:#F0F9FA" />
+      <g
+         class="cls-2"
+         id="g4495">
+        <path
+           class="cls-3"
+           d="M20 1v19H1V1h19m1-1H0v21h21V0z"
+           id="path4493" />
+      </g>
+    </g>
+  </g>
+</svg>
+
+

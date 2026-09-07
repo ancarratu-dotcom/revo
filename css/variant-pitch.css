@@ -1,0 +1,159 @@
+/* ========================================================================
+   Variante "pitch" della skin originalReVo2026
+   Attivata/disattivata tramite @import in custom.css.
+   Specificita rialzata (html body, body .card) per vincere sul cascade
+   nonostante l'@import posizioni questo file "prima" di custom.css.
+
+   ---- Come regolare il look ----
+   Modifica le variabili qui sotto (:root) per controllare blur e opacita:
+     --pitch-card-blur      -> intensita blur del corpo card     (es. 6px, 12px, 20px)
+     --pitch-card-bg        -> colore/opacita corpo card         (alpha 0.0-1.0)
+     --pitch-heading-bg     -> colore/opacita heading card       (alpha 0.0-1.0)
+
+   Nota: il backdrop-filter si applica solo al .card (parent). Header e
+   slot feed condividono il blur del parent via stacking context, quindi
+   non esiste una variabile separata per il loro blur.
+   Per i testi interni agli articoli, usa --pitch-article-bg e blur.
+   ======================================================================== */
+
+/*:root {
+  --pitch-card-blur: 6px;
+  --pitch-card-bg: rgba(37, 39, 62, 0.82);
+  --pitch-heading-bg: rgba(56, 59, 88, 0.88);
+}*/
+
+:root {
+  --pitch-card-blur: 5px;
+  --pitch-card-bg: rgba(37, 39, 62, 0.35);
+  --pitch-heading-bg: rgba(56, 59, 88, 0.30);
+  --pitch-article-bg: rgba(18, 23, 32, 0.25);
+  --pitch-article-blur: 3px;
+  --pitch-main-glow: rgba(255, 255, 255, 0.4); /* Colore alone esterno per Ultime Notizie (Pitch) */
+}
+
+/*
+:root {
+  --pitch-card-blur: 4px;
+  --pitch-card-bg: rgba(37, 39, 62, 0.35);
+  --pitch-heading-blur: 14px;
+  --pitch-heading-bg: rgba(56, 59, 88, 0.70);
+}*/
+
+html body {
+  background-color: #0d0f1a;
+  background-image: url('../img/sfondo.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 992px) {
+  html body {
+    background-attachment: scroll;
+    background-size: auto 100vh;
+  }
+}
+
+body .card {
+  background-color: var(--pitch-card-bg) !important;
+  -webkit-backdrop-filter: blur(var(--pitch-card-blur)) !important;
+  backdrop-filter: blur(var(--pitch-card-blur)) !important;
+}
+
+body .card--main {
+  box-shadow: 0 0 25px 3px var(--pitch-main-glow) !important;
+  border: none !important;
+}
+
+body .card__heading {
+  background-color: var(--pitch-heading-bg) !important;
+}
+
+body .homepage__article-info {
+  background-color: var(--pitch-article-bg) !important;
+  -webkit-backdrop-filter: blur(var(--pitch-article-blur)) !important;
+  backdrop-filter: blur(var(--pitch-article-blur)) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Widget Feed RSS
+   - .feed (wrapper): completamente invisibile. Tolgo sia il bg rgba
+     che il backdrop-filter ereditato da body .card, altrimenti prima
+     del rendering JS degli slot l'area si vede come "vetro blur" vuoto.
+   - .feed__container + .feed__container__no_border: gli slot reali
+     portano loro il glass (bg rgba + backdrop-filter proprio). Dato
+     che il parent .feed ora non crea stacking context, i child possono
+     applicare il loro blur senza il limite visto sui .card__heading. */
+body .feed {
+  background-color: transparent;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+body .feed__container,
+body .feed__container__no_border {
+  background-color: var(--pitch-card-bg);
+  -webkit-backdrop-filter: blur(var(--pitch-card-blur));
+  backdrop-filter: blur(var(--pitch-card-blur));
+}
+
+/* ========================================================================
+   OVERRIDE GLASSMORPHISM PER PAGINE INTERNE (.card--inside)
+   Uso html body per vincere la specificita di custom.css
+   ======================================================================== */
+html body .card.card--inside {
+    background-color: var(--pitch-card-bg) !important;
+    -webkit-backdrop-filter: blur(var(--pitch-card-blur)) !important;
+    backdrop-filter: blur(var(--pitch-card-blur)) !important;
+}
+
+
+
+
+/* Zebrato solo per la variante glass (per dare un po' di stacco trasparente) */
+html body .card.card--inside .table tbody tr:nth-of-type(odd) td {
+    background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+
+/* ========================================================================
+   GESTIONE PROFILO GLASSMORPHISM
+   ======================================================================== */
+html body .card.card--inside .gestione-profilo .form__input-text,
+html body .card.card--inside .gestione-profilo .select__body {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: none !important;
+}
+
+html body .card.card--inside .gestione-profilo .form__input-text:focus,
+html body .card.card--inside .gestione-profilo .select__body:focus {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: #98E05F !important;
+    box-shadow: 0 0 5px rgba(152, 224, 95, 0.3) !important;
+}
+/* Override Hero Slot (Glassmorphism inset) */
+html body .card.card--inside .card__heading--private {
+    background-color: rgba(25, 33, 43, 0.4) !important; 
+    background-image: none !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    border-left: 4px solid #98E05F !important;
+    text-shadow: none !important;
+    border-radius: 8px !important; 
+}
+
+
+
+
+
+
+
+
+
+
+

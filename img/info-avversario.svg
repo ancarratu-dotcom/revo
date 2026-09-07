@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 21 21"
+   version="1.1"
+   id="svg4501"
+   sodipodi:docname="info-avversario.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata4505">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4503"
+     showgrid="false"
+     inkscape:zoom="23.244293"
+     inkscape:cx="7.7823066"
+     inkscape:cy="10.218373"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Livello_2" />
+  <defs
+     id="defs4487">
+    <style
+       id="style4485">.cls-1{fill:#F0F9FA}.cls-2{opacity:0}.cls-3{fill:#F0F9FA}</style>
+    <style
+       id="style4520">.cls-1{fill:#F0F9FA}.cls-2{opacity:0}.cls-3{fill:#F0F9FA}</style>
+  </defs>
+  <title
+     id="title4489">prossimo-turno</title>
+  <g
+     id="Livello_2"
+     data-name="Livello 2">
+    <g
+       id="Livello_1-2"
+       data-name="Livello 1"
+       transform="matrix(1.2540306,0,0,1.229447,-3.2906397,-2.7963856)">
+      <g
+         class="cls-2"
+         id="g4497"
+         style="opacity:0">
+        <path
+           class="cls-3"
+           d="M 20,1 V 20 H 1 V 1 H 20 M 21,0 H 0 v 21 h 21 z"
+           id="path4495"
+           inkscape:connector-curvature="0"
+           style="fill:#F0F9FA" />
+      </g>
+      <path
+         id="path4509"
+         d="m 10.972012,2.910149 c -4.4911289,0 -8.1319196,3.486303 -8.1319196,7.786859 0,4.300557 3.6407907,7.786859 8.1319196,7.786859 4.491127,0 8.131918,-3.486302 8.131918,-7.786859 0,-4.300556 -3.640791,-7.786859 -8.131918,-7.786859 z m 0,1.2434987 c 3.773484,0 6.833317,2.9299951 6.833317,6.5433603 0,3.613365 -3.059833,6.542228 -6.833317,6.542228 -3.7734848,0 -6.8321359,-2.928863 -6.8321359,-6.542228 0,-3.6133652 3.0586511,-6.5433603 6.8321359,-6.5433603 z m 1.330506,1.3419376 c -0.672427,0 -1.218252,0.5215298 -1.218252,1.1654265 0,0.643896 0.545825,1.165426 1.218252,1.165426 0.672427,0 1.21707,-0.52153 1.21707,-1.165426 0,-0.6438967 -0.544643,-1.1654265 -1.21707,-1.1654265 z m -0.98429,2.8287055 c -1.012683,0 -1.9707134,0.624388 -2.8725233,1.8737342 L 8.756471,10.33946 C 9.1260629,9.8797938 9.4471779,9.5624138 9.720674,9.3856198 c 0.096096,-0.07072 0.196652,-0.106359 0.300132,-0.106359 0.05914,0 0.113686,0.02301 0.165427,0.07015 0.05176,0.04714 0.07798,0.09429 0.07798,0.141435 0,0.09429 -0.04805,0.286028 -0.144157,0.5747932 l -0.7396956,2.045724 -0.8011388,2.196206 c -0.1034876,0.271086 -0.1547924,0.494176 -0.1547924,0.670969 0,0.265192 0.1147041,0.484676 0.3438518,0.658523 0.2291438,0.173847 0.5349171,0.261372 0.9193014,0.261372 1.0126786,0 1.9707116,-0.624389 2.8725226,-1.873734 L 12.249342,13.88326 c -0.369597,0.459667 -0.69071,0.777047 -0.964204,0.95384 -0.09611,0.07071 -0.196647,0.10636 -0.300132,0.10636 -0.05914,10e-7 -0.113685,-0.02301 -0.165426,-0.07015 -0.05175,-0.04714 -0.07799,-0.09429 -0.07798,-0.141435 -4e-6,-0.09429 0.04805,-0.286028 0.144158,-0.574792 l 0.739695,-2.04572 0.801139,-2.1962062 c 0.103491,-0.271086 0.154792,-0.494175 0.154792,-0.670969 0,-0.265191 -0.1147,-0.484675 -0.343851,-0.658523 -0.229148,-0.173849 -0.534928,-0.261374 -0.919305,-0.261374 z"
+         style="fill:#F0F9FA;fill-opacity:1;stroke:none;stroke-width:0.03700095"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="113.77084mm"
+   height="157.26521mm"
+   viewBox="0 0 113.77083 157.26521"
+   version="1.1"
+   id="svg8848"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="pitch2.svg">
+  <defs
+     id="defs8842" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="317.54715"
+     inkscape:cy="405.10508"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8845">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(183.7399,-139.01474)">
+    <g
+       id="g4557"
+       transform="matrix(0.42309715,0,0,0.42309715,-650.03526,107.24014)"
+       style="opacity:0.8">
+      <rect
+         id="rect4537"
+         height="371.70001"
+         width="268.89999"
+         y="75.099998"
+         x="1102.1"
+         style="fill:#F0F9FA" />
+      <g
+         id="g4553"
+         style="">
+        <polygon
+           id="polygon4539"
+           points="1140,75.1 1102.1,113 1102.1,75.1 "
+           style="fill:#F0F9FA" />
+        <polygon
+           id="polygon4541"
+           points="1102.1,215.4 1102.1,164.2 1191.2,75.1 1242.3,75.1 "
+           style="fill:#F0F9FA" />
+        <polygon
+           id="polygon4543"
+           points="1102.1,317.7 1102.1,266.5 1293.5,75.1 1344.7,75.1 "
+           style="fill:#F0F9FA" />
+        <polygon
+           id="polygon4545"
+           points="1371,151.1 1102.1,420 1102.1,368.8 1371,99.9 "
+           style="fill:#F0F9FA" />
+        <polygon
+           id="polygon4547"
+           points="1371,253.4 1177.6,446.8 1126.4,446.8 1371,202.2 "
+           style="fill:#F0F9FA" />
+        <polygon
+           id="polygon4549"
+           points="1371,304.6 1371,355.7 1279.9,446.8 1228.7,446.8 "
+           style="fill:#F0F9FA" />
+        <polygon
+           id="polygon4551"
+           points="1371,406.9 1371,446.8 1331,446.8 "
+           style="fill:#F0F9FA" />
+      </g>
+      <path
+         id="path4555"
+         d="m 1349.9,86.4 h -39.1 -35.6 -21.1 V 78.7 H 1219 v 7.7 h -21.1 -35.6 -39.1 -9.8 v 9.8 329.3 9.8 0.1 H 1219 v 7.6 h 35.2 v -7.6 h 105.5 v -0.1 -9.8 -329.3 -9.8 z m 7.2,2.6 v 4.6 c -2.3,-0.5 -4.1,-2.3 -4.6,-4.6 z m -135.6,-7.7 h 30.1 v 5.2 h -30.1 z M 1219,89 h 35.2 18.5 v 32.9 h -72.2 V 89 Z m -21.1,0 v 35.4 h 77.3 V 89 h 33.1 v 70.7 h -43.3 -56.8 -43.3 V 89 Z m 64.5,73.2 c -1,8.9 -12.2,15.9 -25.8,15.9 -13.6,0 -24.8,-7 -25.8,-15.9 z M 1162.3,89 v 73.2 h 45.9 c 0.9,10.3 13.3,18.4 28.3,18.4 15,0 27.4,-8.2 28.3,-18.4 h 45.9 V 89 h 39.2 c 0.6,3.7 3.5,6.6 7.2,7.2 V 259.8 H 1280 c -0.7,-23.4 -19.9,-42.2 -43.4,-42.2 -23.5,0 -42.8,18.8 -43.4,42.2 H 1116 V 96.1 c 3.7,-0.6 6.6,-3.5 7.2,-7.2 h 39.1 z m 190.2,343.8 c 0.5,-2.3 2.3,-4.1 4.6,-4.6 v 4.6 z m -2.5,0.2 h -39.2 v -73.3 h -45.9 c -0.9,-10.3 -13.3,-18.4 -28.3,-18.4 -15,0 -27.4,8.2 -28.3,18.4 h -45.9 V 433 h -39.2 c -0.5,-3.8 -3.4,-6.7 -7.2,-7.3 V 262.2 h 77.2 c 0.7,23.4 19.9,42.2 43.4,42.2 23.5,0 42.8,-18.8 43.4,-42.2 h 77.2 v 163.5 c -3.8,0.5 -6.7,3.5 -7.2,7.3 z m -85.1,-70.8 h 43.3 v 70.7 h -33.1 v -35.4 h -77.3 v 35.4 h -33.1 v -70.7 h 43.3 z m -54.2,-2.6 c 1,-8.9 12.2,-15.9 25.8,-15.9 13.6,0 24.8,7 25.8,15.9 z m 62,73.2 h -18.5 -35.2 -18.5 v -32.9 h 72.2 z M 1116,428.2 c 2.3,0.5 4.1,2.3 4.6,4.6 h -4.6 z m 161.5,-166 c -0.7,22 -18.8,39.7 -40.9,39.7 -22.1,0 -40.2,-17.7 -40.9,-39.7 z m -81.9,-2.5 c 0.7,-22 18.8,-39.7 40.9,-39.7 22.1,0 40.2,17.7 40.9,39.7 z M 1116,89 h 4.6 c -0.5,2.3 -2.3,4.1 -4.6,4.6 z m 135.6,351.5 h -30.1 v -5.1 h 30.1 z"
+         inkscape:connector-curvature="0"
+         style="fill:#F0F9FA" />
+    </g>
+  </g>
+</svg>
+
+
